@@ -1,6 +1,6 @@
 
 
-/*Count the number of customers*/
+/*Count the number of records by a field called gender*/
 
-select count(*)
-from customers;
+select Gender, count(*)
+from customers Group by Gender;
